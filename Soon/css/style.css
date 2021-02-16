@@ -1,0 +1,208 @@
+/*
+
+Template Name: Coming Soon - Beauty Salon
+Template Url: https://fate92ma.github.io/Beauty-Salon/Soon
+Contact Me: fatema131khaled@gmail.com
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: url(../img/aspect16x9.jpg) no-repeat 0 0/cover;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+:root {
+    --main: #ff8364;
+    --second: #ffdabb;
+    --title: #2F3657;
+    --border: #f5f5f5;
+    --p: #5a5a5a;
+    --shadow: 0px 4px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Scrollbar Style */
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--border);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: var(--main);
+}
+
+/* Preloader Style */
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999999999999999;
+    background: ghostwhite;
+}
+
+.preloader img {
+    width: 175px;
+    height: 175px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Desc */
+
+.desc {
+    text-align: center;
+    margin-top: 200px;
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    -ms-box-shadow: var(--shadow);
+    -o-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
+
+.desc p:first-child {
+    font-size: 74px;
+    color: var(--title);
+}
+
+.desc p:nth-child(2) {
+    font-size: 48px;
+    color: var(--main);
+}
+
+#demo {
+    color: var(--second);
+    font-size: 60px;
+}
+
+@media (max-width: 500px) {
+    .desc p:first-child {
+        font-size: 70px;
+    }
+
+    .desc p:nth-child(2) {
+        font-size: 42px;
+    }
+
+    #demo {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 445px) {
+    #demo {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 405px) {
+    .desc p:first-child {
+        font-size: 64px;
+    }
+
+    .desc p:nth-child(2) {
+        font-size: 36px;
+    }
+
+    #demo {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 393px) {
+    .desc p:first-child {
+        font-size: 58px;
+    }
+
+    .desc p:nth-child(2) {
+        font-size: 36px;
+    }
+
+    #demo {
+        color: darkred;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 335px) {
+    .desc p:first-child {
+        font-size: 52px;
+    }
+
+    .desc p:nth-child(2) {
+        font-size: 32px;
+    }
+
+    #demo {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 299px) {
+    .desc {
+        margin-top: 250px;
+    }
+
+    .desc p:first-child {
+        font-size: 48px;
+    }
+
+    .desc p:nth-child(2) {
+        font-size: 28px;
+    }
+
+    #demo {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 277px) {
+    .desc p:first-child {
+        font-size: 40px;
+    }
+
+    .desc p:nth-child(2) {
+        font-size: 22px;
+    }
+
+    #demo {
+        font-size: 28px;
+    }
+}
