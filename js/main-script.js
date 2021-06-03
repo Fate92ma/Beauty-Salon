@@ -1,5 +1,3 @@
-/* jQuery */
-
 $(document).ready(function () {
 
     // Preloader
@@ -35,4 +33,4 @@ $(document).ready(function () {
         }, 2000)
     });
 
-}); // End Coding
+});
