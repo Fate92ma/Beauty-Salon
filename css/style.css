@@ -322,7 +322,7 @@ header {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 100px;
+    top: 10%;
     color: var(--main);
     left: 1%;
 }
@@ -1041,9 +1041,7 @@ form button:hover {
 }
 
 .item {
-    display: block;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    display: block
 }
 
 .all-products {
